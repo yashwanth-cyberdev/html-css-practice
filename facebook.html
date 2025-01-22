@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .parent {
+        display: flex;
+        justify-content: space-between;
+        padding-inline: 250px;
+        padding-top: 20px;
+        padding-bottom: 8px;
+        background-color: #365899;
+      }
+
+      .child1 {
+        font-size: 45px;
+        font-weight: 800;
+        display: flex;
+        padding-inline: 10px;
+        color: white;
+      }
+
+      .child2 {
+        display: flex;
+        align-items: center;
+        color: white;
+      }
+
+      #sign-up {
+        margin: 12px;
+        background-color: #42b72a;
+        border-radius: 4px;
+        color: white;
+        padding-block: 1px;
+        padding-inline: 5px;
+        font-weight: 700;
+        font-size: small;
+        border: 1px solid #42b72a;
+      }
+
+      .container {
+        margin: 25px;
+        margin-inline: 265px;
+        padding-bottom: 30px;
+      }
+
+      #createPage {
+        font-size: 24px;
+        font-weight: bold;
+        padding-bottom: 10px;
+      }
+
+      .logoCards {
+        display: flex;
+        justify-content: center;
+      }
+
+      #item1 {
+        /* display: flex; */
+        /* justify-content: center; */
+        width: 478px;
+        height: 427px;
+        border-radius: 5px;
+        margin-right: 10px;
+        background-color: white;
+        padding-block: 40px;
+      }
+
+      #item2 {
+        /* display: flex;
+        justify-content: center; */
+        width: 478px;
+        height: 427px;
+        border-radius: 5px;
+        margin-left: 10px;
+        background-color: white;
+        padding-block: 40px;
+      }
+
+      #blizzlogo {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 40px;
+      }
+
+      #blizz {
+        display: flex;
+        justify-content: center;
+        font-size: x-large;
+        font-weight: bold;
+        padding-bottom: 20px;
+      }
+
+      #blizztext {
+        margin-inline: 50px;
+        font-size: 15px;
+        color: #adb0b3;
+        padding-bottom: 90px;
+      }
+
+      #get-started {
+        display: flex;
+        justify-content: center;
+        color: rgb(190, 195, 201);
+      }
+
+      #get-startedbtn {
+        color: rgb(190, 195, 201);
+        border-radius: 2px;
+        border: 2px solid rgb(190, 195, 201);
+        background-color: rgb(245, 246, 247);
+      }
+    </style>
+  </head>
+  <body style="margin: 0; background-color: #f3f4f4">
+    <div class="parent">
+      <div class="child1">facebook<button id="sign-up">Sign Up</button></div>
+      <div class="child2">Join or log in to Facebook</div>
+    </div>
+    <div class="container">
+      <div class="childContainer">
+        <div id="createPage">Create a Page</div>
+        <div>
+          Connect your business, yourself or your cause to the worldwide
+          community of people on Facebook. To get started, choose a Page
+          category.
+        </div>
+      </div>
+    </div>
+    <div class="logoCards">
+      <div id="item1">
+        <div id="blizzlogo">
+          <img src="./biz_illustration.png" alt="" height="200px" />
+        </div>
+        <div id="blizz">Business or brand</div>
+        <div id="blizztext">
+          Showcase your products and services, spotlight your brand and reach
+          more customers on Facebook.
+        </div>
+        <div id="get-started">
+          <button id="get-startedbtn">Get Started</button>
+        </div>
+      </div>
+
+      <div id="item2">
+        <div id="blizzlogo">
+          <img src="./community_illustration.png" alt="" height="200px" />
+        </div>
+        <div id="blizz">Community or public figure</div>
+        <div id="blizztext">
+          Connect and share with people in your community, organisation, team,
+          group or club.
+        </div>
+        <div id="get-started">
+          <button id="get-startedbtn">Get Started</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
