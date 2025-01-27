@@ -15,7 +15,7 @@ body {
 
 .card {
   background-color: white;
-  width: 400px;
+  width: 350px;
   height: 400px;
   margin: 10px;
   border-radius: 15px;
@@ -51,12 +51,14 @@ body {
 }
 
 .card a {
+  margin-top: auto;
   background-color: black;
   color: white;
   padding: 15px 20px;
   margin: 20px 40px;
   display: block;
   text-align: center;
+  text-decoration: none;
 }
 
 .card:hover {
@@ -65,4 +67,8 @@ body {
   color: white;
   transition: all 1s ease-in-out;
   transform: scale(1.1);
+}
+
+a:hover {
+  text-decoration: underline;
 }
