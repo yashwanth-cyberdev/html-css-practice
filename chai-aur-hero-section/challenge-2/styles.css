@@ -12,54 +12,103 @@
 }
 
 body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  background-color: white;
+  margin: 50px 110px;
 }
 
 .hero {
+  /* margin-top: 80px; */
+  margin: 0px;
+  padding: auto;
 }
 
 .hero-grid {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-top: 0px;
 }
 
 .content-col h1 {
+  font-size: 90px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .content-col p {
+  font-size: x-large;
+  margin-top: 0px;
+  font-weight: 500;
 }
 
 .cta-group {
+  display: flex;
+  justify-items: end;
+  margin-bottom: 50px;
 }
 
 .sr-only {
+  display: none;
 }
 
 .input-wrapper {
+  margin-right: 10px;
 }
 
-input[type='text'] {
+input[type="text"] {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #9ca3af;
+  width: 370px;
+  font-size: larger;
 }
 
 .demo-button {
+  border: 1px solid var(--primary-blue);
+  border-radius: 5px;
+  background-color: var(--primary-blue);
+  color: white;
+  width: 130px;
+  font-size: medium;
 }
 
 .demo-button:hover {
+  cursor: pointer;
 }
 
 .brands-section {
+  margin: 10px;
 }
 
 .trusted-by {
+  font-size: large;
+  font-weight: 500;
 }
 
 .brand-logos {
+  /* width: 50px; */
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
 }
 
 .brand-logo {
+  width: 106px !important;
+  height: 36px;
+  margin-inline: 20px;
 }
 
 .image-col {
+  display: flex;
+  flex-direction: column;
 }
 
 .hero-image {
+  width: 650px;
+  border-radius: 15px;
 }
 
 @media (min-width: 640px) {
@@ -78,7 +127,7 @@ input[type='text'] {
   .input-wrapper {
   }
 
-  input[type='text'] {
+  input[type="text"] {
   }
 }
 
@@ -114,22 +163,52 @@ input[type='text'] {
 }
 
 .dark-mode-toggle {
+  border: 2px solid #3b82f6;
+  display: flex;
+  justify-self: end;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #3b82f6;
+  color: white;
+  font-size: medium;
+  margin: 50px 10px;
 }
 
 .dark-mode-toggle:hover {
+  cursor: pointer;
 }
 
 body.dark {
+  background-color: #121212; /* Dark background */
+  color: #ffffff;
 }
 
-.dark-mode-toggle {
-}
+/* .dark-mode-toggledark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+
+  color: black;
+  font-size: medium;
+  margin: 50px 10px;
+} */
 
 .dark-mode-toggle:hover {
+  cursor: pointer;
+  border: 2px solid rgb(103, 4, 4);
+  background-color: rgb(68, 4, 4);
 }
 
-input[type='text'].dark {
+input[type="text"].dark {
+  background-color: #333333;
+  color: #ffffff;
+  border: 1px solid #ffffff;
 }
 
-input[type='text']::placeholder {
+input[type="text"]::placeholder {
+  color: #aaaaaa;
 }
